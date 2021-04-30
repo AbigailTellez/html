@@ -1,0 +1,67 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: sans-serif;
+background-color:rgb(245, 230, 189);}
+
+nav{
+    padding-top: 20px;
+    width: 100%;
+    height: 60px;
+    background-image: url(../img/comida.jpg);
+    background-size: 100%;
+    animation: movimiento 20s infinite linear alternate;
+}
+
+.link{
+    padding: 10px;
+    font-size: 15px;
+    margin: 5px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color:rgb(245, 230, 189) ;
+    text-align: center;
+}
+
+header{
+    text-align: center;
+    
+}
+
+@keyframes movimiento {
+    from{
+        background-position: top  ;
+    }
+    to{
+        background-position: bottom;
+    }
+    
+}
+
+h2{
+    color: rgb(91, 10, 126);
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+p{
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h3{
+    color: rgb(0, 195, 255);
+    text-decoration-color: black 1;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 22px;
+    background-color: rgb(137, 105, 145);
+}
+
+ul{
+    font-size: 18px;
+}
+
+.redessociales {
+    font-size: 30px;
+    text-align: center;
+}
+
+

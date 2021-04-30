@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas Faciles</title>
+    <link rel="icon" href="img/cubierto.ico">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<nav>
+    <a href="Index.html">Inicio</a>
+    <a href="curiosidades.html">Curiosidades</a>
+    <a href="contacto.html">Contacto</a>
+    <a href="formulario.html">Registrate</a>
+</nav>
+<header>
+    <h1>RECETAS FACILES</h1>
+</header>
+
+<body>
+    <h2>¡Registrate aqui!</h2> <br>
+    <form align="center" action="show_data" target="_blank">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" size="30" placeholder="Ingrese su nombre..."> <br> <br>
+
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" size="30" placeholder="Ingrese su apellido" > <br><br>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" size="30" placeholder="Ingrese su e-mail"> <br><br>
+
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña" size="25" placeholder="Ingrese su contraseña"><br><br>
+
+        <p>¿Que tipo de recetas le gustaria que subamos?</p>
+        <input type="checkbox" name="opcion" value="1">Recetas de Ensaladas
+        <input type="checkbox" name="opcion" value="2">Recetas de Comida China
+        <input type="checkbox" name="opcion" value="3">Recetas Rápidas
+        <input type="checkbox" name="opcion" value="4">Recetas de Pasta
+        <input type="checkbox" name="opcion" value="5">Recetas de Carnes
+        <input type="checkbox" name="opcion" value="6">Recetas de Postres <br> <br>
+
+        <p>¿Le gustaria recibir novedades al correo electronico?</p>
+        <input type="radio" name="opcion" value="1">Si
+        <input type="radio" name="opcion" value="2">No <br><br>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" placeholder="Escriba su consulta o sugerencia"></textarea>
+
+
+
+
+        <br> <br> <input type="submit" value="Enviar">
+        <button type="reset">Reset</button>
+
+    </form> <br><br>
+</body>
+<footer>
+    <p align="center" >Derechos reservados © 2021</p>
+</footer>
+</html>
