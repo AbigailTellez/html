@@ -1,5 +1,5 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;
-background-color:rgb(245, 230, 189);}
+background-color:rgb(243, 243, 217);}
 
 nav{
     padding-top: 20px;
@@ -7,7 +7,8 @@ nav{
     height: 60px;
     background-image: url(../img/comida.jpg);
     background-size: 100%;
-    animation: movimiento 20s infinite linear alternate;   
+    animation: movimiento 20s infinite linear alternate;  
+    word-spacing: 3px;
 }
 
 .link:link{color: brown;}
@@ -20,8 +21,9 @@ nav{
     margin: 5px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
-    background-color:rgb(245, 230, 189) ;
+    background-color:rgb(248, 234, 186); ;
     text-align: center;
+    text-decoration:none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -45,7 +47,7 @@ header{
 
 h2{
     color: rgb(91, 10, 126);
-    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
     font-size: 35px;
     
 }
