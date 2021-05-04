@@ -1,4 +1,4 @@
-*{margin: 0px; padding: 0px; box-sizing: border-box; font-family: sans-serif;
+*{margin: 0px; padding: 0px; box-sizing: border-box;
 background-color:rgb(245, 230, 189);}
 
 nav{
@@ -7,8 +7,12 @@ nav{
     height: 60px;
     background-image: url(../img/comida.jpg);
     background-size: 100%;
-    animation: movimiento 20s infinite linear alternate;
+    animation: movimiento 20s infinite linear alternate;   
 }
+
+.link:link{color: brown;}
+.link:visited{color: rgb(66, 121, 11);}
+.link:hover{color: cornflowerblue;}
 
 .link{
     padding: 10px;
@@ -18,11 +22,7 @@ nav{
     border-radius: 20px;
     background-color:rgb(245, 230, 189) ;
     text-align: center;
-}
-
-header{
-    text-align: center;
-    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @keyframes movimiento {
@@ -34,12 +34,25 @@ header{
     }
     
 }
+header{
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    color: brown;
+    text-shadow: 2px 2px 2px rgb(255, 251, 0);
+}
 
 h2{
     color: rgb(91, 10, 126);
     text-shadow: 2px 2px 2px rgb(255, 255, 255);
     font-size: 35px;
+    
 }
+
+.linkreseta:link{color: brown;}
+.linkreseta:visited{color: rgb(66, 121, 11);}
+.linkreseta:hover{color: cornflowerblue;}
 
 p{
     font-style: normal;
@@ -63,5 +76,7 @@ ul{
     font-size: 30px;
     text-align: center;
 }
+.redessocialesk:link{color: brown;}
+.redessociales:visited{color: rgb(66, 121, 11);}
 
 
