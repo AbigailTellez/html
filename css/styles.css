@@ -1,32 +1,34 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;
-background-color:rgb(243, 243, 217);}
+background-color:rgb(255, 255, 255);}
 
 nav{
     padding-top: 20px;
+    padding-left: 10px;
     width: 100%;
     height: 60px;
     background-image: url(../img/comida.jpg);
     background-size: 100%;
     animation: movimiento 20s infinite linear alternate;  
-    word-spacing: 3px;
+    word-spacing: 4px;
 }
-
-.link:link{color: brown;}
-.link:visited{color: rgb(66, 121, 11);}
-.link:hover{color: cornflowerblue;}
-
+.link:link{color: rgb(248, 112, 225);}
+.link:visited{color: rgb(245, 137, 169);}
+.link:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(240, 116, 116);
+    border:2px solid rgb(255, 255, 255);
+}
 .link{
     padding: 10px;
     font-size: 15px;
     margin: 5px;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    background-color:rgb(248, 234, 186); ;
+    border-radius: 18px;
+    background-color:rgb(255, 255, 255); ;
     text-align: center;
     text-decoration:none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
 @keyframes movimiento {
     from{
         background-position: top  ;
@@ -36,25 +38,52 @@ nav{
     }
     
 }
+
+
 header{
     text-align: center;
     font-style: oblique;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 45px;
-    color: brown;
-    text-shadow: 2px 2px 2px rgb(255, 251, 0);
+    font-size: 40px;
+    color: rgb(255, 139, 139);
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
 }
+
 
 h2{
-    color: rgb(91, 10, 126);
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
-    font-size: 35px;
+    color: rgb(255, 128, 234);
+    text-shadow: 1px 1px 0px rgb(0, 0, 0);
+    font-size: 25px;
+    padding: 10px;
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
+    background-size: 0% 0%;
+
+}
+.fotocomida{
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 30%;
+    height: 30%;
+    border: 10px solid pink;
+}
+.fotocomida:hover{
+    width: 30%;
+    border: 2px solid rgb(240, 59, 144);
 }
 
-.linkreseta:link{color: brown;}
-.linkreseta:visited{color: rgb(66, 121, 11);}
-.linkreseta:hover{color: cornflowerblue;}
+
+.linkreseta:link{color: rgb(220, 113, 241);}
+.linkreseta:visited{color: rgb(241, 114, 188);}
+.linkreseta:hover{color: rgb(243, 29, 93);}
+.linkreseta{
+    padding-left:20px;
+    font-style: italic;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
 
 p{
     font-style: normal;
@@ -75,10 +104,16 @@ ul{
 }
 
 .redessociales {
-    font-size: 30px;
+    font-size: 25px;
     text-align: center;
+    word-spacing: 10px;
 }
 .redessocialesk:link{color: brown;}
 .redessociales:visited{color: rgb(66, 121, 11);}
+
+footer{
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
 
 
