@@ -1,119 +1,163 @@
 *{margin: 0px; padding: 0px; box-sizing: border-box;
-background-color:rgb(255, 255, 255);}
+}
 
+
+/*BARRA DE NAVEGACION*/
 nav{
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
     width: 100%;
-    height: 60px;
     background-image: url(../img/comida.jpg);
     background-size: 100%;
     animation: movimiento 20s infinite linear alternate;  
-    word-spacing: 4px;
+    word-spacing: 10px;
 }
-.link:link{color: rgb(248, 112, 225);}
-.link:visited{color: rgb(245, 137, 169);}
+.link:link{color: rgb(250, 49, 216);}
+.link:visited{color: rgb(255, 0, 76);}
 .link:hover{
-    color: rgb(255, 255, 255);
-    background-color:rgb(240, 116, 116);
+    color: rgb(255, 25, 205);
+    background-color:rgb(169, 245, 245);
     border:2px solid rgb(255, 255, 255);
 }
 .link{
-    padding: 10px;
-    font-size: 15px;
-    margin: 5px;
+    padding: 0.8%;
+    font-size: 100%;
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 18px;
-    background-color:rgb(255, 255, 255); ;
+    border-radius: 20px;
+    background-color:rgb(255, 227, 246); ;
     text-align: center;
     text-decoration:none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 @keyframes movimiento {
-    from{
-        background-position: top  ;
-    }
-    to{
-        background-position: bottom;
-    }
-    
+    from{background-position: top; }
+    to{background-position: bottom; }
 }
 
 
+/* TITULO*/
 header{
+    margin-top: 3%;
+    margin-bottom: 3%;
     text-align: center;
-    font-style: oblique;
+    font-style: italic;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 40px;
-    color: rgb(255, 139, 139);
-    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    font-size: 380%;
+    color: rgb(137, 240, 240);
+    text-shadow: 3px 2px 2px rgb(236, 87, 212);
 }
 
-
+/*BODY DEL INDEX*/
 h2{
     color: rgb(255, 128, 234);
     text-shadow: 1px 1px 0px rgb(0, 0, 0);
-    font-size: 25px;
-    padding: 10px;
-    margin: 5px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 300%;
+    margin-bottom: 2.5%;
+    text-align: center;
+    font-family: 'Itim', cursive; 
+    text-decoration: underline;
+}
+
+#fotocomida {
+    list-style: none;
+	display: flex;
+	flex-direction:row;
+    justify-content: center;
+}
+
+.linkcomida{
+    padding: 1%;
+    margin-left: 20%;
+    border-radius: 5%;
+    width: 60%;
+    height: 80%;
+    transition: border-radius 1s;
+    border: 5px solid pink;
+}
+.linkcomida:hover{
+    border-radius: 20%;
+    border: 5px solid rgb(240, 59, 144);
+}
+
+#proximamente {
+    color: rgb(155, 36, 235);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 125%;
+    text-align: center;
+    margin: 2%;
+}
+
+
+/*CURIOSIDADES*/
+#lista.curiosidades{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.curiosidadescomida {
+    margin-left: 1%;
+    margin-right: 1%;
+    padding: 2%;
+    background-color: rgb(250, 223, 223);
+    border-radius: 7%;
+    margin-bottom: 5%;
+}
+
+.curiosidadescomida h3{
+    color: rgb(81, 6, 255);
+    margin-top: 1%;
+    margin-left: 2%;
+    font-family: 'Bebas Neue', cursive;
+    font-style: oblique;
+    font-size: 190%;
+}
+
+.curiosidadescomida img{
+    padding: 0%;
+    margin: 2%;
+    border: 4px solid rgb(111, 1, 255); 
+    border-radius: 0%;  
+    transition: border-radius 1s;
+}
+.curiosidadescomida img:hover{
+    border-radius: 30%;
+}
+
+.curiosidadescomida p{
+    text-align: justify;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 130%;
+    margin-left: 2%;
+}
+
+
+/*CONTACTO*/
+
+
+
+/*FOOTER*/
+footer{
+    margin-top: 50px;
+    padding: 25px;
+    word-spacing: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../img/fondocomida2.jpg);
+	color: #f700ff;
     
-    background-size: 0% 0%;
-
-}
-.fotocomida{
-    padding: 10px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 20px;
-    width: 30%;
-    height: 30%;
-    border: 10px solid pink;
-}
-.fotocomida:hover{
-    width: 30%;
-    border: 2px solid rgb(240, 59, 144);
 }
 
-
-.linkreseta:link{color: rgb(220, 113, 241);}
-.linkreseta:visited{color: rgb(241, 114, 188);}
-.linkreseta:hover{color: rgb(243, 29, 93);}
-.linkreseta{
-    padding-left:20px;
-    font-style: italic;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
-}
-
-p{
-    font-style: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h3{
-    color: rgb(0, 195, 255);
-    text-decoration-color: black 1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-style: italic;
-    font-size: 22px;
-    background-color: rgb(137, 105, 145);
-}
-
-ul{
-    font-size: 18px;
-}
-
-.redessociales {
-    font-size: 25px;
+#redessociales {
+    padding: 5px;
+    font-size: 25px; 
     text-align: center;
     word-spacing: 10px;
+    color: rgb(250, 0, 0);
 }
-.redessocialesk:link{color: brown;}
-.redessociales:visited{color: rgb(66, 121, 11);}
-
-footer{
-    margin-bottom: 10px;
-    margin-top: 20px;
+ 
+#redessociales :hover{
+    transform: scale(1.4);
 }
-
-
